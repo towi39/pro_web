@@ -13,12 +13,9 @@ body{
 }
 .profile_box > .row > .col-sm-2{
 display: table-cell;
-padding: 16px;
+padding-top: 175px;
 background-color: black;
 color: white;
-}
-.profile_box > .row > .col-sm-2 > h1{
-margin: auto;
 }
 .profile_box > .row > .col{
     display: table-cell;
