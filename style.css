@@ -1,20 +1,12 @@
 body{
     background-color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 .navbar-nav > li{
     margin-left:30px;
     margin-right:30px;
     font-weight: bold;
 }
-/* @media (min-width: 576px) {
-    .profile_box > .row > .col-sm-2{
-        display: table-cell;
-        padding-top: 0;
-        background-color: black;
-        color: white;
-        }
-} */
 .profile_box{
     display: table;
     width: 100%;
@@ -28,6 +20,10 @@ color: white;
 }
 .profile_box >.row > .col-sm-2 > .contact_details{
     margin-top: 50px;
+}
+.contact_data > img{
+    width: 20px;
+    height: 20px;
 }
 .profile_box > .row > .col{
     display: table-cell;
@@ -47,4 +43,30 @@ color: white;
     margin-top: 10px;
     text-align: center;
     background-color: aliceblue;
+}
+.bottomright{
+    float: right;
+    padding-top: 400px;
+    padding-right: 30px;
+    font-size: 45px;
+    color: white;
+}
+.centerright{
+    float: right;
+    padding-top: 300px;
+    padding-right: 30px;
+    font-size: 45px;
+    color: white;
+}
+.centerleft{
+    float: left;
+    padding-top: 300px;
+    padding-left: 30px;
+    font-size: 45px;
+    color: white;
+}
+.footer{
+    height: 50px;
+    width: 100%;
+    text-align: center;
 }
