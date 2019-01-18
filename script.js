@@ -8,6 +8,8 @@ function showLoading(){
 function showPage(){
     $("#loading").slideUp();
 }
-// function showGallery(){
-//     $("#gallery").slideUp();
-// }
+function show(shown, hidden) {
+    document.getElementById(shown).style.display='block';
+    document.getElementById(hidden).style.display='none';
+    return false;
+}
